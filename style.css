@@ -1,0 +1,262 @@
+*{
+	
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+article {
+
+	padding: 2% 3%;
+	background-color: #f1f1f1;
+}
+
+
+header{
+
+	background-color: royalblue;
+}
+
+.cabecalhoC{
+
+	background-color: #243151;
+	padding: 2% 0 0 0;
+}
+
+.extra{
+	
+	padding: 0% 5%;
+}
+
+.extraList{
+	
+	display: inline-block;
+	list-style: none;
+	float: right;
+	font-size: 20px;
+}
+
+.cabecalho{
+
+	padding: 1.7% 1.7% 1% 1.7%;
+	color: white;
+	/*box-shadow: 1px 2px 5px #ccc;*/
+	margin-bottom: 0;
+}
+
+.cabecalho a{
+
+	color: white;
+	text-decoration: none;
+}
+
+.cabecalho a:hover{
+
+	color: white;
+	text-decoration: none;
+}
+
+
+.navegacao{
+
+width: 40%;
+padding: 2.5% 0 0.75% 0;
+float: right;
+margin-right: 9%;
+
+
+}
+
+.navegacaoLi{
+
+display: inline-block;
+margin-right: 11%;
+
+
+}
+
+.lastNav{
+
+	display: inline-block;
+	margin-right: 2%;
+}
+
+.navegacao a {
+
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.navegacao a:hover{
+
+	color: 	#c7deed;
+	font-style: bold;
+	text-decoration: none;
+	padding-bottom: .5px;
+	border-bottom: solid 1px red;
+	
+}
+
+#mapa{
+	
+	color: white;
+	float: right;
+}
+
+#mapa:hover{
+	
+	color: #ccc;
+	text-decoration: none;
+}
+
+.tituloP{
+
+	background: url(IMGS/textoPapel.png) left no-repeat;
+	background-size: 400px 90px;
+	padding: 5% 2% 5% 3%;
+	margin-bottom: 3%;
+	color: #b00b13;
+	font-size: 50px;
+	transform: rotate(-2deg);
+}
+
+.tituloP h1{
+
+	padding: 0 0 0 3.5%;
+}
+
+.carousel-inner div{
+
+	background-color: black;
+}
+
+.carrossel{
+
+	padding: 0 2% 10% 2%;
+	background: url(IMGS/fundoAlaska.png) center fixed;
+	background-size: 2000px 900px;
+}
+
+.contatos{
+	
+	background-color: #345392;
+	color: white;
+	padding: 5% 5%;
+}
+
+.pagamento{
+	
+	padding: 5% 5%;
+}
+
+.localizacao{
+	
+	background: url(IMGS/sorvete_local.jpg) center;
+	color: white;
+	overflow: hidden;
+}
+
+.titleLocal{
+	
+	padding: 0 0 5% 0;
+}
+
+ #map {
+        height: 400px;
+        width: 100%;
+       }
+
+.entregas{
+	
+	padding: 2%;
+}
+
+.entregas .d1{
+	
+	background: url(IMGS/entrega1.jpg) center no-repeat;
+	display: inline-block;
+	margin-bottom: 2%;
+	padding: 7%;
+	user-select: none;
+	border-radius: 10px;
+	color: white;
+}
+
+.entregas .d2{
+	
+	background: url(IMGS/entrega2.jpg) center no-repeat;
+	display: inline-block;
+	margin-bottom: 2%;
+	padding: 7%;
+	user-select: none;
+	border-radius: 10px;
+	color: white;
+}
+
+.entregas div:hover .imgBuffet{
+
+	background-color: #c9ada7;
+}
+
+.entregas div:hover .imgFesta{
+
+	background-color: #c9ada7;
+}
+
+.imgBuffet{
+	
+	border-radius: 50%; 
+	background-color: black; 
+	padding: 5%; 
+	margin-bottom: 10%;
+}
+
+.imgFesta{
+	
+	border-radius: 50%;
+	background-color: black;
+	padding: 2%;
+	margin-bottom: 10%;
+}
+	   
+footer{
+
+	background-color: black;
+	width: 100%;
+	color: #ccc;
+	overflow: hidden;
+}
+
+.navegacaoF {
+
+	float: left;
+	width: 40%;
+	padding: 1% 0 0.75% 5%;
+	color: #f1f1f1;
+	text-decoration: none;
+	list-style: none;
+	width: 50%;
+}
+
+.navegacaoF a{
+
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+.navegacaoF a:hover{
+
+	color: #ccc;
+	text-decoration: none;
+}
+
+.menuF{
+
+	padding: 2%;
+}
+
+.developed{
+
+	padding-top: 15%;
+}
